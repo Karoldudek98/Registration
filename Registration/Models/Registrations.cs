@@ -18,5 +18,5 @@ namespace Registration.Models
         public int Age { get; set; }
         public string Miasto { get; set; }
 
-    }
+    } 
 }
