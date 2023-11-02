@@ -1,11 +1,11 @@
 ﻿namespace Registration.Models
 {
-    public enum Kategorie
+    public enum Miasta
     {
-        Low = 1,
-        Normal = 2,
-        High = 3,
-        SuperHigh = 4,
-        UltraHigh = 5
+        Krakow = 1,
+        Warszawa = 2,
+        Gdansk = 3,
+        Wroclaw = 4,
+        Rzeszow = 5
     }
 }

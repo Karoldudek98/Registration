@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using Registration.Models
+using Registration.Models;
 
 namespace Registration.Controllers
 {
