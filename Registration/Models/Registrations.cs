@@ -12,6 +12,7 @@ namespace Registration.Models
         [DataType(DataType.Password)]
         public string Password { get; set; }
         [DataType(DataType.Password)]
+        [Compare("Password", ErrorMessage = "Podane hasla nie sa takie same")]
         public string ConfirmPassword { get; set; }
         [Phone]
         public string PhoneNumber { get; set; }
