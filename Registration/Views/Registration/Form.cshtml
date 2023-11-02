@@ -1,4 +1,5 @@
 ﻿@model Registration.Models.Registrations
+
 @{
     ViewData["Title"] = "Home Page";
 }
@@ -12,6 +13,7 @@
     <p>Potwierdz haslo: @Html.TextBoxFor(a => a.ConfirmPassword)</p>
     <p>Podaj numer telefonu: @Html.TextBoxFor(a => a.PhoneNumber)</p>
     <p>Podaj wiek: @Html.TextBoxFor(a => a.Age)</p>
-    <p>Podaj miasto: @Html.TextBoxFor(a => a.Miasto)</p>
+    <p>Podaj miasto: @Html.DropDownListFor(a => a.Miasto, new SelectList(Enum.GetValues(typeof(Miasta))))</p>
+
     <input type="submit"/>
 }
